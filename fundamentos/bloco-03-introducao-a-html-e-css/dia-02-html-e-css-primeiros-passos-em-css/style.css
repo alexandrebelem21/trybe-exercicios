@@ -1,0 +1,21 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(33, 37, 41);
+    background-color: rgb(173, 181, 189);
+}
+
+#Sobre, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(222, 226, 230);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-align: center;
+    margin: 0 20px;
+}
