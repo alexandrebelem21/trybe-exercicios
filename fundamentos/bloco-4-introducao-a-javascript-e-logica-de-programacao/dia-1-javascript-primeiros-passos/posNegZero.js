@@ -1,8 +1,7 @@
 let a = 10;
 
-as = a > 0;
-if (as ) {
-    console.log (as);
+if (a > 0 ) {
+    console.log ('positive');
 }else if (a < 0) {
     console.log ('negative');
 }else { 
