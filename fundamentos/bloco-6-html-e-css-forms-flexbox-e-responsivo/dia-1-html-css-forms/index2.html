@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
     <title>Document</title>
   </head>
   <body>
@@ -11,7 +18,7 @@
       <h1>Concurso Trybe Trip</h1>
     </header>
     <form action="" method="get">
-      <div>
+      <div class="input-group-text input-group mb-3">
         <label for="name">
           Nome:
           <input
@@ -23,7 +30,7 @@
           />
         </label>
       </div>
-      <div>
+      <div class="input-group-text input-group mb-3">
         <label for="email">
           Email:
           <input
@@ -37,22 +44,22 @@
       </div>
       <div>
         <p>Destino Preferido:</p>
-        <label for="opcao1">
+        <label class="form-control" for="opcao1">
           <input type="radio" name="lugares" id="opcao1" value="Cidade" />
           Cidade
         </label>
-        <label for="opcao2">
+        <label class="form-control" for="opcao2">
           <input type="radio" name="lugares" id="opcao2" value="Campo" /> Campo
         </label>
-        <label for="opcao3">
+        <label class="form-control" for="opcao3">
           <input type="radio" name="lugares" id="opcao3" value="Praia" /> Praia
         </label>
-        <label for="opcao4">
+        <label class="form-control" for="opcao4">
           <input type="radio" name="lugares" id="opcao4" value="Montanhas" />
           Montanhas
         </label>
       </div>
-      <div>
+      <div class="input-group mb-3">
         <p>
           Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
           TrybeTrip?
@@ -65,14 +72,14 @@
           maxlength="500"
         ></textarea>
       </div>
-      <div>
-        <label for="date"
+      <div class="input-group mb-3">
+        <label class="form-label" for="date"
           >Qual a melhor data para realizar sua viagem?
           <br />
-          <input type="date" name="date" id="date" />
+          <input class="form-control" type="date" name="date" id="date" />
         </label>
       </div>
-      <div>
+      <div class="input-group mb-3">
         <label for="agree1">
           <input type="checkbox" name="agree1" id="agree1" />Gostaria de receber
           outras incríveis oportunidades oferecidas pela Trybe?
@@ -85,9 +92,9 @@
         </label>
       </div>
     </form>
-    <div>
-      <button type="submit">Enviar</button>
-      <button type="reset">Apagar</button>
+    <div class="input-group mb-3">
+      <button class="btn btn-primary" type="submit">Enviar</button>
+      <button class="btn btn-danger" type="reset">Apagar</button>
     </div>
   </body>
 </html>
