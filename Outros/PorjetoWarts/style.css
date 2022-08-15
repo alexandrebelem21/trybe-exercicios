@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 10vh;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 40%;
+  align-self: center;
+}
+
+h1 {
+  color: white;
+  align-self: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 182, 234);
+  width: 100%;
+  height: 85vh;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  height: 100%;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+#titleForm {
+  margin: 20px 10px;
+}
+
+#dados {
+  width: 100%;
+  height: 15%;
+}
+
+#nomeSobre {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-right: 10px;
+}
+
+#input-name,
+#input-lastname {
+  display: flex;
+  height: 80%;
+  width: 49%;
+}
+
+#emailHome {
+  display: flex;
+  width: 100%;
+  height: 40%;
+}
+
+#input-email,
+#houses {
+  display: flex;
+  height: 100%;
+  width: 49%;
+}
+
+#lblHome {
+  display: flex;
+  size: 500px;
+}
+
+#house {
+  display: flex;
+  width: 100%;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  align-self: center;
+  height: 500px;
+}
+
+#label-family {
+  display: flex;
+}
+
+#radius {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+#leftRigth {
+  display: flex;
+  justify-content: space-between;
+}
+
+#avaliacao {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textarea {
+  display: flex;
+}
+
+#textarea {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 5vh;
+}
+
+div#contadorText {
+  position: relative;
+}
+
+div#contador {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 90%;
+  align-content: flex-end;
+} */
+
+/* .container {
+  background-color: gray;
+  display: block;
+}
